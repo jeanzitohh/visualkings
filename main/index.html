@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />|
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link rel="stylesheet" type="text/css" />
+
+    <title>VisualKings</title>
+  </head>
+  <body>
+    <header>
+
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <img
+            src="src/img/eyetracker/ojo.png"
+            alt="VisualKings-Logo"
+            width="50px"
+            height="50px"
+            class="zind"
+          />
+
+          <div class="navbar__box">
+            <img
+              src="src/img/eyetracker/iris.png"
+              alt=""
+              class="eye"
+              width="14px"
+              height="14px"
+            />
+          </div>
+
+          <div class="logo__text">
+            <img src="src/img/logoTextW.png" alt="" width="120px" />
+          </div>
+        </div>
+
+        <div class="navbar__navegacion">
+          <a href="#inicio" class="navbar__links" data-url="inicio">
+            <span class="material-symbols-outlined">home</span>
+            INICIO
+          </a>
+          <a href="#nosotros" class="navbar__links"  data-url="nosotros">
+            <span class="material-symbols-outlined"> groups_3 </span>
+            NOSOTROS
+          </a>
+          <a href="#planes" class="navbar__links"  data-url="planes">
+            <span class="material-symbols-outlined"> menu_book </span>
+            PLANES
+          </a>
+          <a href="#portafolio" class="navbar__links"  data-url="portafolio">
+            <span class="material-symbols-outlined"> business_center </span>
+            PORTAFOLIO
+          </a>
+          <a href="#testimonios" class="navbar__links"  data-url="testimonios">
+            <span class="material-symbols-outlined"> forum </span>
+            TESTIMONIOS
+          </a>
+          <a href="#footer" class="navbar__links"  data-url="footer">
+            <span class="material-symbols-outlined"> call </span>
+            CONTACTO
+          </a>
+        </div>
+
+        <div class="navbar__redes">
+          <a href="#" class="navbar__red"
+            ><img
+              src="src/img/iconos/igIcon.png"
+              alt="InstagramLogo"
+              width="30px"
+              height="30px"
+              class="inverted__black"
+          /></a>
+          <a href="#" class="navbar__red"
+            ><img
+              src="src/img/iconos/fbIcon.png"
+              alt="FacebookLogo"
+              width="29px"
+              height="29px"
+              class="inverted__black"
+          /></a>
+          <a href="#" class="navbar__red"
+            ><img
+              src="src/img/iconos/twtIcon.png"
+              alt="TwitterLogo"
+              width="30px"
+              height="30px"
+              class="inverted__black"
+          /></a>
+          <a href="#" class="navbar__red"
+            ><img
+              src="src/img/iconos/ttIcon.png"
+              alt="TikTokLogo"
+              width="33px"
+              height="33px"
+              class="inverted__black"
+          /></a>
+          <a href="#" class="navbar__red"
+            ><img
+              src="src/img/iconos/inIconW.png"
+              alt="LinkedinLogo"
+              width="30px"
+              height="30px"
+              class="inverted__black"
+          /></a>
+        </div>
+      </nav>
+
+      <section class="seccion landing" id="inicio">
+        <div class="circlebg"></div>
+        <div class="landing__info zind">
+          <h1>VISUALIZA TU MARCA EN EL MUNDO DIGITAL</h1>
+          <div class="landing__block">
+            <h3 class="landing__description">
+              Nos encargamos de brindar soluciones digitales efectivas y a la vanguardia que permitan a nuestros clientes impulsar su presencia y éxito en el mundo digital.
+            </h3>
+            <div class="landing__links">
+              <a href="#planes" class="btn landing__link">PLANES</a>
+              <h4 style="color: var(--first-color)">
+                Precios <br />
+                desde
+              </h4>
+              <h4 class="landing__price">$590.000COP</h4>
+              <span class="alert">MÁS VENDIDO</span>
+            </div>
+          </div>
+        </div>
+        <div class="landing__image">
+          <img
+            src="src/img/whiteLogo.png"
+            alt="Logo-VisualKings"
+            class="zind"
+          />
+        </div>
+        <a href="#" class="cotizar">
+          COTIZAR
+          <img
+            src="src/img/iconos/arrow.png"
+            alt=">"
+            width="40px"
+            class="cotizar__arrow"
+          />
+        </a>
+      </section>
+
+    </header>
+    <main>
+
+      <section class="seccion nosotros" id="nosotros">
+        <div class="nosotros__squarebg"></div>
+        <div class="nosotros__descripcion">
+          <div class="nosotros__info">
+            <h2
+              style="
+                font-weight: 700;
+                color: var(--second-color);
+                font-size: 3.2rem;
+                line-height: 4rem;
+                letter-spacing: 1px;
+              "
+            >
+              Agencia Digital
+            </h2>
+            <h3 class="nosotros__desc justify">
+              Somos un equipo de creativos rompiendo las barreras de lo
+              convencional y dejando huella en cada proyecto. <br /><br />
+              Nuestro equipo se conforma de desarrolladores y diseñadores
+              amantes de lo audiovisual, en busca de resaltar tu marca con un
+              desarrollo de identidad.
+            </h3>
+            <div class="nosotros__equipo">
+              <div class="nosotros__profile">
+                <img
+                  src="src/img/profilejean.jpg"
+                  alt="jean-photo"
+                  class="profile__pic"
+                />
+                <img
+                  src="src/img/profilejulian.jpg"
+                  alt="julian-photo"
+                  class="profile__pic"
+                />
+                <img
+                  src="src/img/profileKevin.jpg"
+                  alt="kevin-photo"
+                  class="profile__pic"
+                />
+              </div>
+              <h5 class="nosotros__profiledesc" style="text-align: center">
+                Somos quienes damos vida a tus proyectos!!
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="nosotros__productos">
+          <div class="nosotros__card">
+            <h3 class="nosotros__card__title">Diseño y Desarrollo Web</h3>
+            <ul>
+              <li>Creación de sitios web</li>
+              <li>Rediseño y adaptación</li>
+              <li>Diseño UX/UI</li>
+              <li>Posicionamiento SEO</li>
+              <li>Pasarelas de pago</li>
+            </ul>
+            <img
+              src="src/img/iconos/IconWeb.png"
+              alt="icono-desarrollo-web"
+              class="card__icon"
+            />
+          </div>
+
+          <div class="nosotros__card">
+            <h3 class="nosotros__card__title">Marketing Digital</h3>
+            <ul>
+              <li>Estrategia de crecimiento</li>
+              <li>Creación de contenido</li>
+              <li>Email marketing</li>
+              <li>Posicionamiento de marca</li>
+            </ul>
+            <img
+              src="src/img/iconos/iconMarketing.png"
+              alt="icono-desarrollo-web"
+              class="card__icon"
+            />
+          </div>
+
+          <div class="nosotros__card">
+            <h3 class="nosotros__card__title">Diseño</h3>
+            <ul>
+              <li>Branding</li>
+              <li>Identidad de marca</li>
+              <li>Flyer publicitario</li>
+              <li>Diseño a gran formato</li>
+            </ul>
+            <img
+              src="src/img/iconos/IconDiseño.png"
+              alt="icono-desarrollo-web"
+              class="card__icon"
+            />
+          </div>
+
+          <div class="nosotros__card">
+            <h3 class="nosotros__card__title">Producción Audiovisual</h3>
+            <ul>
+              <li>Producción fotográfica y de video</li>
+              <li>Videos publicitarios para redes sociales</li>
+              <li>Edición de video</li>
+            </ul>
+            <img
+              src="src/img/iconos/IconVisual.png"
+              alt="icono-desarrollo-web"
+              class="card__icon"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion planes" id="planes">
+        <div class="contener__bola">
+          <div class="planes__circlebg circlebg--1"></div>
+        </div>
+        <div class="planes__circlebg circlebg--2"></div>
+        <div class="titlebg"><h2 class="planes__title">PLANES Y SERVICIOS</h2></div>
+
+        <div class="planes__container">
+          <div class="planes__card">
+            <div class="planes__circlebgbf--white"></div>
+            <div class="planes__circlebgbf"></div>
+            <div class="planes__card__header">
+              <h2 class="planes__card__title">Plan Web Básico</h2>
+              <h5 class="txtw planes__txtw">Ideal para mostrar tu producto</h5>
+              <div class="planes__card__price">
+                <h3 class="txtw planes__txtw">COP$</h3>
+                <h4 class="txtw planes__txtw">590.000</h4>
+                <span class="planes__alert">Ahorra 48%</span>
+              </div>
+            </div>
+            <ul class="planes__card__info">
+              <li>Diseño adaptable a dispositivos</li>
+              <!-- <li>Diseño sitio web hasta 4 secciones</li> -->
+              <!-- <li>Página administrable</li> -->
+              <li>Asesoría de diseño UX/UI</li>
+              <li>Integración con redes sociales</li>
+              <!-- <li>Botón para whatsapp</li> -->
+              <li>Integración con mapas de google</li>
+              <li>Dominio <strong>GRATIS</strong> por 1 año</li>
+              <li>Alojamiento web <strong>GRATIS</strong> por 1 año</li>
+              <li>Certificado de seguridad SSL</li>
+              <li>Hasta 3 emails corporativos</li>
+              <!-- <li>Política de privacidad y cookies</li> -->
+              <!-- <li>Capacitación de administración de la página</li> -->
+              <li>Garantía 1 año sobre el funcionamiento del sitio web</li>
+              <li>Página multilenguajes</li>
+            </ul>
+            <a href="" class="btn2 planes__btn">Adquierelo</a>
+          </div>
+
+          <div class="planes__card">
+            <div class="planes__circlebgbf--white"></div>
+            <div class="planes__circlebgbf"></div>
+            <div class="planes__card__header">
+              <h2 class="planes__card__title">PLAN WEB BONZAI</h2>
+              <h5 class="txtw planes__txtw">Perfecto para blogs y tiendas</h5>
+              <div class="planes__card__price">
+                <h3 class="txtw planes__txtw">COP$</h3>
+                <h4 class="txtw planes__txtw">1.199.000</h4>
+                <span class="planes__alert">Ahorra 35%</span>
+              </div>
+            </div>
+            <ul class="planes__card__info">
+              <li>Íncluye plan básico</li>
+              <li>Posicionamiento SEO</li>
+              <li>Integración mapas de google</li>
+              <li>Formulario de contacto</li>
+              <li>Hasta 4 emails corporativos</li>
+              <li>Soporte técnico especializado</li>
+              <li>Administración, hasta 1 cambio al mes</li>
+              <li>Copia de seguridad del sitio web</li>
+              <li>Dominio <strong>GRATIS</strong> por 1 año</li>
+              <li>Alojamiento web <strong>GRATIS</strong> por 1 año</li>
+            </ul>
+            <a href="" class="btn2 planes__btn">Adquierelo</a>
+          </div>
+
+          <div class="planes__card">
+            <div class="planes__circlebgbf--white"></div>
+            <div class="planes__circlebgbf"></div>
+            <div class="planes__card__header">
+              <h2 class="planes__card__title">PLAN STORE</h2>
+              <h5 class="txtw planes__txtw">Perfecto para vender tu producto</h5>
+              <div class="planes__card__price">
+                <h3 class="txtw planes__txtw">COP$</h3>
+                <h4 class="txtw planes__txtw">1.780.000</h4>
+                <span class="planes__alert">Ahorra 20%</span>
+              </div>
+            </div>
+            <ul class="planes__card__info">
+              <li>Incluye los planes bonzai y básico</li>
+              <li>WEB multipáginas (hasta 4 pàginas)</li>
+              <li>Pasarela de pagos (Stripe & paypal)</li>
+              <li>Copia de seguridad del sitio web</li>
+              <li>Hasta 5 emails corporativos</li>
+              <li>Capacitación de administracion de la pagina</li>
+              <li>Dominio <strong>GRATIS</strong> por 1 año</li>
+              <li>Alojamiento web <strong>GRATIS</strong> por 1 año</li>
+            </ul>
+            <a href="" class="btn2 planes__btn">Adquierelo</a>
+          </div>
+
+          <div class="planes__card">
+            <div class="planes__circlebgbf--white"></div>
+            <div class="planes__circlebgbf"></div>
+            <div class="planes__card__header">
+              <h2 class="planes__card__title">PLAN MARKETING</h2>
+              <h5 class="txtw planes__txtw">Perfecto para hacer ver tu producto</h5>
+              <div class="planes__card__price">
+                <h3 class="txtw planes__txtw">COP$</h3>
+                <h4 class="txtw planes__txtw">450.000</h4>
+                <span class="planes__alert">Ahorra 28%</span>
+              </div>
+            </div>
+            <ul class="planes__card__info">
+              <li>Analisìs de competencia y Benchmark</li>
+              <li>Desarrollo creativo de contenido</li>
+              <li>Planificaciòn mensual de contenido con COpywriting</li>
+              <li>Creaciòn de publicaciones para Instagram</li>
+              <li>Piezas audiovisuales</li>
+              <li>Administración y gestiòn de cuentas</li>
+            </ul>
+            <a href="" class="btn2 planes__btn">Adquierelo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion portafolio" id="portafolio">
+        <h2 class="portafolio__title">PORTAFOLIO</h2>
+        <div class="portafolio__grid work">
+          <!-- ITEM -->
+          <a
+            href="https://spiwakhotels.com/"
+            class="portafolio__item"
+            target="_blank"
+          >
+            <img
+              src="src/img/spiwakPortfolio.png"
+              alt=""
+              class="portafolio__webimg window"
+            />
+            <div class="bg-hover">
+              <div class="portafolio__webtitle">
+                <img src="src/img/spiwaklogoW.png" alt="">
+              </div>
+            </div>
+          </a>
+          <!-- ITEM -->
+          <a
+            href="https://awencamp.com/"
+            class="portafolio__item"
+            target="_blank"
+          >
+            <img
+              src="src/img/awencampPortfolio.png"
+              alt=""
+              class="portafolio__webimg window"
+            />
+            <div class="bg-hover">
+              <div class="portafolio__webtitle">
+                <img src="src/img/awencamplogow.png" alt="">
+              </div>
+            </div>
+          </a>
+          <!-- ITEM -->
+          <a
+            href="https://www.revhelo.net/"
+            class="portafolio__item"
+            target="_blank"
+          >
+            <img
+              src="src/img/revheloPortfolio.png"
+              alt=""
+              class="portafolio__webimg window"
+            />
+            <div class="bg-hover">
+              <div class="portafolio__webtitle">
+                <img src="src/img/revhelologo.png" alt="">
+              </div>
+            </div>
+          </a>
+          <!-- ITEM -->
+          <a href="#" class="portafolio__item" target="_blank">
+            <img
+              src="src/img/pokedexPortfolio.png"
+              alt=""
+              class="portafolio__webimg window"
+            />
+            <div class="bg-hover">
+              <div class="portafolio__webtitle">
+                <img src="src/img/pokedexlogo.png" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="seccion testimonios" id="testimonios">
+        <div class="testimonio__container">
+            
+          <div class="testimonio__card">
+            <div class="testimonio__header">
+              <img
+                src="src/img/profile1.png"
+                alt="foto-perfil"
+                class="testimonio__photo"
+              />
+              <div class="testimonio__datos">
+                <h4 class="testimonio__nombre">Carlos Franco Aguirre</h4>
+                <h5 class="testimonio__fecha">junio 25, 2022</h5>
+              </div>
+            </div>
+            <div class="testimonio__body">
+              <div class="testimonio__points">
+                <div class="testimonio__stars">
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                </div>
+                <img src="src/img/iconos/google.png" alt="logo-google" />
+              </div>
+              <p class="testimonio__declaracion">
+                Excelente, muy atentos y dinamicos con el trabajo me quedo muy agusto.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonio__card">
+            <div class="testimonio__header">
+              <img
+                src="src/img/profile2.jpg"
+                alt="foto-perfil"
+                class="testimonio__photo"
+              />
+              <div class="testimonio__datos">
+                <h4 class="testimonio__nombre">Lorena Paz</h4>
+                <h5 class="testimonio__fecha">agosto 05, 2022</h5>
+              </div>
+            </div>
+            <div class="testimonio__body">
+              <div class="testimonio__points">
+                <div class="testimonio__stars">
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                </div>
+                <img src="src/img/iconos/google.png" alt="logo-google" />
+              </div>
+              <p class="testimonio__declaracion">
+                Trabajar con VisualKings ha sido una experiencia increíble. Desde el primer día, sentimos que realmente se preocuparon por entender nuestros objetivos y necesidades únicas.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonio__card">
+            <div class="testimonio__header">
+              <img
+                src="src/img/profile3.jpeg"
+                alt="foto-perfil"
+                class="testimonio__photo"
+              />
+              <div class="testimonio__datos">
+                <h4 class="testimonio__nombre">Alberto Martinez</h4>
+                <h5 class="testimonio__fecha">julio 20, 2022</h5>
+              </div>
+            </div>
+            <div class="testimonio__body">
+              <div class="testimonio__points">
+                <div class="testimonio__stars">
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                </div>
+                <img src="src/img/iconos/google.png" alt="logo-google" />
+              </div>
+              <p class="testimonio__declaracion">
+                Nos brindaron una solución personalizada que realmente ayudó a impulsar nuestro éxito en el mercado. Además, su equipo de profesionales es excepcional y siempre estuvo a nuestro lado. ¡Los recomendamos altamente!.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonio__card">
+            <div class="testimonio__header">
+              <img
+                src="src/img/profile4.jpg"
+                alt="foto-perfil"
+                class="testimonio__photo"
+              />
+              <div class="testimonio__datos">
+                <h4 class="testimonio__nombre">Luis Felipe Díaz</h4>
+                <h5 class="testimonio__fecha">Agosto 20, 2022</h5>
+              </div>
+            </div>
+            <div class="testimonio__body">
+              <div class="testimonio__points">
+                <div class="testimonio__stars">
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                </div>
+                <img src="src/img/iconos/google.png" alt="logo-google" />
+              </div>
+              <p class="testimonio__declaracion">
+                Tuve la primicia de poder trabajar con ellos y desde la primera llamada, estuvieron muy atentos y se portaron excelente, el tiempo de entrega fue más rápido de lo esperado y la calidad de trabajo inigualable, muy satisfecho con ellos y volvería a trabajar con ellos.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonio__card">
+            <div class="testimonio__header">
+              <img
+                src="src/img/profile1.png"
+                alt="foto-perfil"
+                class="testimonio__photo"
+              />
+              <div class="testimonio__datos">
+                <h4 class="testimonio__nombre">Julian Ramirez Cordoba</h4>
+                <h5 class="testimonio__fecha">Septiembre 15, 2022</h5>
+              </div>
+            </div>
+            <div class="testimonio__body">
+              <div class="testimonio__points">
+                <div class="testimonio__stars">
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                </div>
+                <img src="src/img/iconos/google.png" alt="logo-google" />
+              </div>
+              <p class="testimonio__declaracion">
+                Nos brindaron una solución personalizada que realmente impactó en nuestro éxito en el mercado. No dudes en contactarlos y experimentar por ti mismo lo que pueden hacer por ti. 
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonio__card">
+            <div class="testimonio__header">
+              <img
+                src="src/img/profile1.png"
+                alt="foto-perfil"
+                class="testimonio__photo"
+              />
+              <div class="testimonio__datos">
+                <h4 class="testimonio__nombre">Luisa Hernandez</h4>
+                <h5 class="testimonio__fecha">Octubre 30, 2022</h5>
+              </div>
+            </div>
+            <div class="testimonio__body">
+              <div class="testimonio__points">
+                <div class="testimonio__stars">
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                  <img
+                    src="src/img/iconos/estrella.png"
+                    alt="estrella"
+                    class="star"
+                  />
+                </div>
+                <img src="src/img/iconos/google.png" alt="logo-google" />
+              </div>
+              <p class="testimonio__declaracion">
+                ¿Estás buscando una pagina web efectiva para tu negocio? ¡Mira lo que VisualKings hizo por nosotros!
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer id="footer" class="seccion">
+      <div class="footer__contacto">
+        <spam><i class="fa-solid fa-location-dot"></i> Cali-Colombia</spam>
+        <spam><i class="fa-solid fa-phone"></i> (+57)3173961428</spam>
+        <spam
+          ><i class="fa-solid fa-envelope"></i> VisualKingscol@gmail.com</spam
+        >
+      </div>
+      <div class="footer__logo">
+        <img src="src/img/whiteLogo.png" alt="logo-vk" />
+        <img src="src/img/logoTextW.png" alt="logo-vk" />
+      </div>
+      <div class="footer__legal">
+        <span>LEGAL</span>
+        <span>Política de privacidad y cookies</span>
+        <div class="footer__redes">
+          <a href="#"
+            ><img
+              src="src/img/iconos/igIcon.png"
+              alt="InstagramLogo"
+              width="30px"
+              height="30px"
+              class="inverted__black"
+          /></a>
+          <a href="#"
+            ><img
+              src="src/img/iconos/fbIcon.png"
+              alt="FacebookLogo"
+              width="29px"
+              height="29px"
+              class="inverted__black"
+          /></a>
+          <a href="#"
+            ><img
+              src="src/img/iconos/twtIcon.png"
+              alt="TwitterLogo"
+              width="30px"
+              height="30px"
+              class="inverted__black"
+          /></a>
+          <a href="#"
+            ><img
+              src="src/img/iconos/ttIcon.png"
+              alt="TikTokLogo"
+              width="33px"
+              height="33px"
+              class="inverted__black"
+          /></a>
+          <a href="#"
+            ><img
+              src="src/img/iconos/inIconW.png"
+              alt="LinkedinLogo"
+              width="30px"
+              height="30px"
+              class="inverted__black"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <section class="footer">
+      <span>Diseño de paginas web realizado por <b>Visual Kings Agency</b></span>
+      <span>Copyright © 2021 - 2023 Todos los derechos reservados</span>
+    </section>
+    <script src="src/styles.js"></script>
+    <script>
+      var eye = document.getElementsByClassName("eye");
+      document.onmousemove = function () {
+        var x = (event.clientX * 100) / window.innerWidth + "%";
+        var y = (event.clientY * 100) / window.innerHeight + "%";
+
+        for (var i = 0; i < 2; i++) {
+          eye[i].style.right = x;
+          eye[i].style.bottom = y;
+          eye[i].style.transform = "translate(+" + x + ",+" + y + ")";
+        }
+      };
+    </script>
+  </body>
+</html>
