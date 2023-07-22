@@ -216,17 +216,12 @@ a {
   border-radius: 50%;
 }
 
-/* OTRO */
 .whatsappbtn {
   background-color: var(--white-color);
   color: greenyellow;
 }
 
 /*NavBar*/
-
-.colores {
-  background-color: red;
-}
 
 .navbar {
   width: 100%;
@@ -406,12 +401,4 @@ a {
   .desplegable__links {
     display: none;
   }
-}
-
-.moto {
-  width: 500px;
-  height: auto;
-  border-radius: 20px;
-  border: 10px solid blue;
-  box-shadow: 10px 10px 10px #3F1672;
 }
