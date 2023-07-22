@@ -203,30 +203,9 @@ a {
 /* Style Btn Whatsapp */
 
 .whatsappbtn {
-  z-index: 100;
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 60px;
-  right: 60px;
-  background-color: #25d366;
-  color: var(--white-color);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  box-shadow: 2px 2px 3px #999;
+  background-color: green;
 }
 
-.colores {
-  background-color: red;
-}
-.whatsappbtn:hover {
-  text-decoration: none;
-  color: #25d366;
-  background-color: var(--white-color);
-}
 
 /*NavBar*/
 
