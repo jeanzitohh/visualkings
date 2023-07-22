@@ -223,7 +223,9 @@ a {
 
 /*NavBar*/
 
-
+.colores {
+  background-color: red;
+}
 .navbar {
   width: 100%;
   position: fixed;
