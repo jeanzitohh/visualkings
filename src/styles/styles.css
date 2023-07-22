@@ -219,7 +219,7 @@ a {
   border-radius: 50%;
 }
 
-.whatsappbtn {
+.whabtn:hover {
   background-color: var(--white-color);
   color: greenyellow;
 }
