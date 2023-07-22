@@ -1,3 +1,6 @@
+body {
+  background-color: red;
+}
 /*---------- CUSTOM PROPERTIES ----------*/
 :root {
   --first-color: #3F1672;

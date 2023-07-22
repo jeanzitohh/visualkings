@@ -291,10 +291,8 @@ video {
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
   transition: width 0.2s linear;
   overflow: hidden;
-
-  background-color: var(--first-color);
-  background: -webkit-linear-gradient(to top, #0F2027, var(--first-color), var(--first-color));
-  background: linear-gradient(to top, #0F2027, var(--first-color), var(--first-color));
+  
+  background-color: red;
 
 }
 
