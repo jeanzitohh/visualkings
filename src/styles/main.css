@@ -215,17 +215,14 @@ a {
 	display: flex;
   justify-content: center;
   align-items: center;
-  font-size:30px;
+  font-size:40px;
 	box-shadow: 2px 2px 3px #999;
 }
+
 .whatsappbtn:hover {
 	text-decoration: none;
 	color: #25d366;
   background-color:#fff;
-}
-
-.whatsappbtn__icon{
-	margin-top:16px;
 }
 
 /*NavBar*/
