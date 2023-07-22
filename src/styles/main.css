@@ -199,14 +199,6 @@ a {
 }
 
 /*----------- STYLES ----------*/
-
-/* Style Btn Whatsapp */
-
-.whatsappbtn {
-  background-color: green;
-}
-
-
 /*NavBar*/
 
 
@@ -288,8 +280,18 @@ a {
 
 
 .prueba {
-  background-color: red;
-  border: 10px solid red;
+  z-index: 100;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  color: var(--white-color);
+  background-color: greenyellow;
 }
 
 .desplegable {
