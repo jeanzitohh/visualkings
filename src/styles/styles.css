@@ -200,7 +200,26 @@ a {
 
 /*----------- STYLES ----------*/
 
+.whatsappbtn {
+  z-index: 100;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  color: var(--white-color);
+  background-color: greenyellow;
+  border-radius: 50%;
+}
 
+.whatsappbtn {
+  background-color: var(--white-color);
+  color: greenyellow;
+}
 
 /*NavBar*/
 
@@ -224,8 +243,6 @@ a {
   align-items: center;
   height: 100%;
 }
-
-
 
 .navbar__navegacion {
   display: flex;
