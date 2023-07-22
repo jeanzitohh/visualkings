@@ -215,6 +215,7 @@ a {
   background-color: greenyellow;
   border-radius: 50%;
 }
+
 /* OTRO */
 .whatsappbtn {
   background-color: var(--white-color);
@@ -226,6 +227,7 @@ a {
 .colores {
   background-color: red;
 }
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -245,13 +247,7 @@ a {
   align-items: center;
   height: 100%;
 }
-.moto{
-  width: 500px;
-  height: auto;
-  border-radius: 20px;
-  border: 10px solid blue;
-  box-shadow:10px 10px 10px #3F1672;
-}
+
 .navbar__navegacion {
   display: flex;
   justify-content: space-between;
@@ -410,4 +406,12 @@ a {
   .desplegable__links {
     display: none;
   }
+}
+
+.moto {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  border: 10px solid blue;
+  box-shadow: 10px 10px 10px #3F1672;
 }
