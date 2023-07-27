@@ -414,7 +414,10 @@ a {
     display: none;
   }
 }
-/*----- pie de pagina -----*/
+
+/*----- Pie de pagina -----*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 *{
     margin: 0;
@@ -451,6 +454,11 @@ a {
     margin-bottom: 25px;
     font-size: 13px;
 }
+.pie-pagina .one-group .box h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
 .pie-pagina .one-group .red-social a{
     display: inline-block;
     text-decoration: none;
@@ -468,8 +476,9 @@ a {
     color: #fff;
     background-color: #9965DB;
 }
-
-
+.pie-pagina .one-group span{
+    font-size: 13px;
+}
 .pie-pagina .one-group .contact{
     display: inline-block;
     text-decoration: none;
