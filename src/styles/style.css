@@ -73,8 +73,8 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 1.7rem;
+  font-weight: 900;
 }
 
 h3 {
@@ -522,6 +522,55 @@ p {
 }
 
 
+/*SERVICIOS*/
+
+.servicios {
+  background-color: var(--third-color);
+  width: 100vw;
+  max-width: 100vw;
+  height: 600px;
+  padding: 2rem 0;
+}
+
+.servicios__layout {
+  max-width: var(--max-width);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*PRODUCTOS*/
+
+.productos {
+  background-color: var(--first-color);
+  width: 100vw;
+  max-width: 100vw;
+  height: 600px;
+  padding: 2rem 0;
+}
+
+.productos__layout {
+  max-width: var(--max-width);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.productos__title {
+  text-align: center;
+  width: 80%;
+  border-bottom: 3px solid var(--white-color);
+}
+
+.productos__cards {
+  width: 100%;
+  display: flex;
+}
+
 /*----------- MEDIAQUERIES ----------*/
 
 /*360>*/
@@ -535,6 +584,11 @@ p {
     font-weight: 900;
     line-height: 1.1;
     width: 80%;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 900;
   }
 
   .stats__number {
@@ -630,7 +684,6 @@ p {
     flex-direction: row-reverse;
   }
 }
-
 
 /*1440>*/
 @media screen and (min-width: 90rem) {}
