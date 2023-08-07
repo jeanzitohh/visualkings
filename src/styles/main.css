@@ -174,11 +174,9 @@ a {
 .fzs {
   font-size: 12px;
 }
-
 .fzm {
   font-size: 20px;
 }
-
 .fzl {
   font-size: 32px;
 }
@@ -198,308 +196,68 @@ a {
   text-align: justify;
 }
 
-/*----------- STYLES ----------*/
-
-/* Style Btn Whatsapp */
-
-.whatsappbtn{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-.whatsappbtn:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
-}
-
-.whatsappbtn__icon{
-	margin-top:16px;
-}
-
-/*NavBar*/
-
-
-.navbar {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  height: var(--navbar-height);
-  padding: 3rem 0;
-  background-color: var(--first-color);
-  transition: 0.6s;
-  box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.3);
-}
-
-.navbar__layout {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.navbar__navegacion {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.navbar__links {
-  display: none;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.navbar__item {
-  padding: .4rem 1.5rem;
-  text-align: center;
-}
-
-.navbar__item:hover {
-  background-color: white;
-  color: var(--first-color);
-}
-
-.navbar__menu {
-  all: unset;
-  cursor: pointer;
-  background-color: var(--white-color);
-  padding: 0 0.5rem;
-  font-size: 1.5rem;
-  text-align: center;
-  border-radius: .3rem;
-  color: var(--first-color);
-  transition: all .1s linear;
-}
-
-.navbar__menu:hover {
-  background-color: var(--second-color);
-  color: var(--white-color);
-}
-
-.navbar__logo {
-  flex: 1;
-  height: 90%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.logo {
-  fill: var(--white-color);
-  width: 60%;
-}
-
-
-
-/*DESPLEGABLE*/
-
-
-.prueba {
-  background-color: red;
-  border: 10px solid red;
-}
-
-.desplegable {
-  position: fixed;
-  top: -100%;
-  right: 0;
-  width: 100%;
-  max-width: 400px;
-  padding: 1rem 0;
-  gap: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--second-color);
-  box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.3);
-  transition: .5s;
-}
-
-.navbar-height {
-  top: var(--navbar-height);
-}
-
-.desplegable__links {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.desplegable__item {
-  width: 100%;
-  text-align: center;
-  padding: 1rem;
-  transition: .3s;
-}
-
-.desplegable__item:hover {
-  background-color: var(--white-color);
-  color: var(--first-color);
-}
-
-.desplegable__info {
-  width: 100%;
-  padding: 0 3rem;
-}
-
-.desplegable__informacion {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 2px solid var(--white-color);
-  padding: 1rem 2rem;
-}
-
-.desplegable__info-ico {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-
-.desplegable__redes {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.desplegable__red i {
-  transition: .4s;
-  border-radius: 5px;
-  padding: 1rem;
-}
-
-.desplegable__red:hover i {
-  background-color: var(--white-color);
-  color: var(--first-color);
-}
-
-/*----------- MEDIAQUERIES ----------*/
-
-/*800>*/
-
-@media screen and (min-width: 58em) {
-  .navbar {
-    background-color: unset;
-    box-shadow: unset;
-  }
-
-  .navbar__links {
-    display: flex;
-  }
-
-  .sticky {
-    background-color: var(--first-color);
-    padding: 0;
-    transition: .5s;
-    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.3);
-
-  }
-
-  .desplegable__links {
-    display: none;
-  }
-}
-
 /*----- Pie de pagina -----*/
 
+.footer {
+  width: 100%;
+  background-color: var(--second-color);
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+.footer__layout {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
-/*---Pie de pagina*/
-.pie-pagina{
-    width: 100%;
-    background-color: #9965DB;
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
-.pie-pagina .one-group{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
-.pie-pagina .one-group .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
+
+.footer__img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem 4rem;
+  gap: .5rem;
+  background-color: var(--first-color);
+  text-align: center;
+}
+
+@media (min-width: 844px) {
+  .footer__copyright {
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-.pie-pagina .one-group .box figure img{
-    width: 300px;
-}
-.pie-pagina .one-group .box{
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 13px;
-}
-.pie-pagina .one-group .box h2{
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 13px;
-}
-.pie-pagina .one-group .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 30px;
-    color: #9965DB;
-    margin-right: 10px;
-    background-color: #fff;
-    text-align: center;
-    transition: all 300ms ease;
-}
-.pie-pagina .one-group .red-social a:hover{
-    color: #fff;
-    background-color: #9965DB;
-}
-.pie-pagina .one-group span{
-    font-size: 13px;
-}
-.pie-pagina .one-group .contact{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-}
-.pie-pagina .two-group{
-    text-decoration: none;
-    background-color: #3F1672;
-    padding: 8px 10px;
-    text-align: center;
-    color: #fff;
-}
-.pie-pagina .two-group small{
-    font-size: 13px;
-}
-@media screen and (max-width:800px) {
-    .pie-pagina .one-group{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
+    gap: 2rem;
+  }
+
+  .footer__layout {
+    flex-direction: row;
+  }
 }
