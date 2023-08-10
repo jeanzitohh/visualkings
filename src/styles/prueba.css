@@ -541,6 +541,46 @@ p {
   align-items: center;
 }
 
+/*PRUEBA CAJA DE SERVICIOS*/
+
+.services {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 24px;
+}
+
+.service-icon {
+  align-self: flex-end;
+  justify-content: center;
+  padding: 8px;
+  background-color: var(--white-color);
+  color: var(--first-color);
+  border-radius: 50%;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #3f1672;
+  color: white;
+  border-radius: 16px;
+}
+
+.service:hover {
+  background-color: white;
+  color: #935fef;
+  border: 2px solid #3f1672;
+}
+
+.service:hover > .service-icon {
+  background-color: #935fef;
+  color: white;
+}
+
+
 /*PRODUCTOS*/
 
 .productos {
